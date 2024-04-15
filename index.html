@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    body {
+        background-color: rebeccapurple;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .texto-centralizado p {
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .caixa-escondida {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        font-family: 'Times New Roman', serif;
+    }
+
+    input[type="text"] {
+        border: 2px solid blueviolet;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    a:hover {
+        color: purple;
+    }
+
+    p:first-letter {
+        font-size: 133%;
+    }
+
+    input:focus {
+        border-color: blueviolet;
+    }
+
+    .caixa {
+        width: auto;
+        height: 18px;
+        background-color: lightblue;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    #anomalia{
+        margin: 2px;
+        padding: 1px;
+        background-color:plum;
+        display: block;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .item {
+        flex-basis: 100px;
+        flex-grow: 1;
+        padding: 30px;
+    }
+
+    .item1 {
+        background-color: purple;
+    }
+
+    .item2 {
+        background-color: blueviolet;
+        flex-grow: 1;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        background-color: violet;
+        padding: 10px;
+    }
+
+    .grid-item {
+        background-color: palevioletred;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+#sim {
+    border: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+    <header id="header">
+        <h1>Lulu</h1>
+    </header>
+
+    <p class="highlight">Poppy</p>
+
+    <input type="text" placeholder="Vex">
+
+    <a href="gigo.html">Perdi o pix</a>
+
+    <section class="texto-centralizado">
+        <h2>As vezes eu não te odeio sombra</h2>
+        <p>Ei fuzinusculo!!</p>
+    </section>
+
+    <div class="caixa-escondida">Este elemento será escondido.</div>
+
+    <div id="anomalia">
+        <h4>Yordle</h4>
+    </div>
+
+    <section>
+        <h3>Canhão</h3>
+        <div id="sim">
+        <div class="caixa">Primeira Caixa</div>
+        <div class="caixa">Segunda Caixa</div>
+    </div>
+    </section>
+
+
+    <section>
+        <h3>Sombra</h3>
+        <div class="container">
+            <div class="item item1">Item 1</div>
+            <div class="item item2">Item 2</div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Martelo</h3>
+        <div class="grid-container">
+            <div class="grid-item">Área 1</div>
+            <div class="grid-item">Área 2</div>
+        </div>
+    </section>
+
+</body>
+
+</html>

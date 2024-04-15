@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta charset="UTF-8">
+    <title>Flexbox em Ação - Vertical</title>
+    <style>
+        .perfil-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 300px;
+        }
+
+        .perfil-card img {
+            border-radius: 50%;
+            width: 100px;
+        }
+
+        @media (max-width: 600px) {
+            .perfil-card {
+                width: 100%;
+                max-width: none;
+            }
+
+        }
+
+        header{
+            padding: 33px;
+            padding-bottom: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>Aleluia</header>
+    <div class="perfil-card">
+        <img src="https://www.tenda.com/eudouconta/wp-content/uploads/2021/09/Pessoa-fisica-mobile.jpg"
+            alt="Foto de Perfil">
+        <h2>Joana da Silva</h2>
+        <p>Desenvolvedora Web</p>
+    </div>
+</body>
+
+</html>
